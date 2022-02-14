@@ -1,0 +1,165 @@
+(base)
+peter@DESKTOP-09O1VNP MINGW64 ~
+$ conda activate dev
+(dev)
+peter@DESKTOP-09O1VNP MINGW64 ~
+$ cd FinTech_Workspace/
+(dev)
+peter@DESKTOP-09O1VNP MINGW64 ~/FinTech_Workspace
+$ git clone https://github.com/plefebvre1/module_7_challenge.git
+Cloning into 'module_7_challenge'...
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (5/5), done.
+(dev)
+peter@DESKTOP-09O1VNP MINGW64 ~/FinTech_Workspace
+$ cd module_7_challenge/
+(dev)
+peter@DESKTOP-09O1VNP MINGW64 ~/FinTech_Workspace/module_7_challenge (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+(dev)
+peter@DESKTOP-09O1VNP MINGW64 ~/FinTech_Workspace/module_7_challenge (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        etf.db
+        etf_analyzer.ipynb
+
+nothing added to commit but untracked files present (use "git add" to track)
+(dev)
+peter@DESKTOP-09O1VNP MINGW64 ~/FinTech_Workspace/module_7_challenge (main)
+$ git add etf.db
+(dev)
+peter@DESKTOP-09O1VNP MINGW64 ~/FinTech_Workspace/module_7_challenge (main)
+$ git add etf_analyzer.ipynb
+(dev)
+peter@DESKTOP-09O1VNP MINGW64 ~/FinTech_Workspace/module_7_challenge (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   etf.db
+        new file:   etf_analyzer.ipynb
+
+(dev)
+peter@DESKTOP-09O1VNP MINGW64 ~/FinTech_Workspace/module_7_challenge (main)
+$ git commit -m 'Initial starter code'
+[main aca5612] Initial starter code
+ 2 files changed, 1925 insertions(+)
+ create mode 100644 etf.db
+ create mode 100644 etf_analyzer.ipynb
+(dev)
+peter@DESKTOP-09O1VNP MINGW64 ~/FinTech_Workspace/module_7_challenge (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 1010.53 KiB | 1.93 MiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/plefebvre1/module_7_challenge.git
+   e274055..aca5612  main -> main
+(dev)
+peter@DESKTOP-09O1VNP MINGW64 ~/FinTech_Workspace/module_7_challenge (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   etf_analyzer.ipynb
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(dev)
+peter@DESKTOP-09O1VNP MINGW64 ~/FinTech_Workspace/module_7_challenge (main)
+$ git add etf_analyzer.ipynb
+(dev)
+peter@DESKTOP-09O1VNP MINGW64 ~/FinTech_Workspace/module_7_challenge (main)
+$ git commit -m 'PYPL analyzed individually'
+[main 8ef46c0] PYPL analyzed individually
+ 1 file changed, 1545 insertions(+), 707 deletions(-)
+(dev)
+peter@DESKTOP-09O1VNP MINGW64 ~/FinTech_Workspace/module_7_challenge (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 2.25 MiB | 3.22 MiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/plefebvre1/module_7_challenge.git
+   aca5612..8ef46c0  main -> main
+(dev)
+peter@DESKTOP-09O1VNP MINGW64 ~/FinTech_Workspace/module_7_challenge (main)
+$ git add etf_analyzer.ipynb
+(dev)
+peter@DESKTOP-09O1VNP MINGW64 ~/FinTech_Workspace/module_7_challenge (main)
+$ git commit -m 'SQL queries for PYPL optimized'
+[main 47c6e54] SQL queries for PYPL optimized
+ 1 file changed, 191 insertions(+), 14 deletions(-)
+(dev)
+peter@DESKTOP-09O1VNP MINGW64 ~/FinTech_Workspace/module_7_challenge (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.30 KiB | 1.30 MiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/plefebvre1/module_7_challenge.git
+   8ef46c0..47c6e54  main -> main
+(dev)
+peter@DESKTOP-09O1VNP MINGW64 ~/FinTech_Workspace/module_7_challenge (main)
+$ git add etf_analyzer.ipynb
+(dev)
+peter@DESKTOP-09O1VNP MINGW64 ~/FinTech_Workspace/module_7_challenge (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   etf_analyzer.ipynb
+
+(dev)
+peter@DESKTOP-09O1VNP MINGW64 ~/FinTech_Workspace/module_7_challenge (main)
+$ git commit -m 'Final ETF portfolio analysis'
+[main b08576e] Final ETF portfolio analysis
+ 1 file changed, 541 insertions(+), 40 deletions(-)
+(dev)
+peter@DESKTOP-09O1VNP MINGW64 ~/FinTech_Workspace/module_7_challenge (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 12.70 KiB | 82.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/plefebvre1/module_7_challenge.git
+   47c6e54..b08576e  main -> main
+(dev)
+peter@DESKTOP-09O1VNP MINGW64 ~/FinTech_Workspace/module_7_challenge (main)
+$ touch terminal_history.txt
+(dev)
+peter@DESKTOP-09O1VNP MINGW64 ~/FinTech_Workspace/module_7_challenge (main)
+$ ls
+etf.db  etf_analyzer.ipynb  LICENSE  README.md  terminal_history.txt
+(dev)
+peter@DESKTOP-09O1VNP MINGW64 ~/FinTech_Workspace/module_7_challenge (main)
+$
+
